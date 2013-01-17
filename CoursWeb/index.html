@@ -1,10 +1,45 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Insert title here</title>
+<link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<p>Hello World</p>
+	<div id="screen">
+		<div class="window">
+			<div id="menu">
+			<ul>
+				<li>Infos</li>
+				<li>Equipement</li>
+				<li>Compétences</li>
+				<li>Statistiques</li>
+			</ul>
+			</div>
+			
+			<div id="content">
+				<dl>
+					<dt class="player_infos">Nom : </dt> <dd class="player_infos_value">Ulrich</dd>
+					<dt class="player_infos">XP : </dt> <dd class="player_infos_value">480</dd>
+				</dl>
+				<div id="content_player">
+					<!--  <img src="ressources/selection-1-2-1.png"/> -->
+				</div>
+			</div>
+		</div>
+		
+		<div id="scene">
+			<div id="player_div">
+				<img src="ressources/idle-1-2-1.png" id="player_sprite"/>
+			</div>
+			
+			<div id="ennemy_div">
+				<img src="ressources/idle-1.png" id="ennemy_sprite"/>
+			</div>
+			
+			<div id="background">
+			</div>
+		</div>
+	</div>
 </body>
 </html>

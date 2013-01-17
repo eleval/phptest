@@ -1,0 +1,88 @@
+!SESSION 2013-01-17 14:27:22.366 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_07
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation
+
+!ENTRY org.eclipse.ui 4 4 2013-01-17 14:27:54.203
+!MESSAGE Unable to find Action Set: org.eclipse.wst.server.ui.internal.webbrowser.actionSet
+
+!ENTRY org.eclipse.ui.workbench 2 0 2013-01-17 14:27:55.112
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2013-01-17 14:27:55.112
+!MESSAGE Conflict for 'org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu':
+HandlerActivation(commandId=org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu,
+	handler=org.eclipse.dltk.internal.ui.actions.refactoring.RefactorActionGroup$3@89ebf7,
+	expression=AndExpression(ActivePartExpression(org.eclipse.php.internal.ui.explorer.PHPExplorerPart@1d77c9f),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1b7e734)),sourcePriority=1064960)
+HandlerActivation(commandId=org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu,
+	handler=org.eclipse.dltk.internal.ui.actions.refactoring.RefactorActionGroup$3@e2a774,
+	expression=AndExpression(ActivePartExpression(org.eclipse.php.internal.ui.explorer.PHPExplorerPart@1d77c9f),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1b7e734)),sourcePriority=1064960)
+
+!ENTRY org.eclipse.equinox.p2.discovery 4 0 2013-01-17 14:28:00.001
+!MESSAGE Unexpected error while verifying site availability: HTTP Server 'Service Unavailable': http://www.phpsrc.org/eclipse/pti/content.jar
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.core.runtime.CoreException: HTTP Server 'Service Unavailable': http://www.phpsrc.org/eclipse/pti/content.jar
+	at java.util.concurrent.FutureTask$Sync.innerGet(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at org.eclipse.equinox.internal.p2.discovery.compatibility.SiteVerifier.verifySiteAvailability(SiteVerifier.java:77)
+	at org.zend.php.common.ZendCatalogViewer$7.run(ZendCatalogViewer.java:484)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.core.runtime.CoreException: HTTP Server 'Service Unavailable': http://www.phpsrc.org/eclipse/pti/content.jar
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:216)
+	at org.eclipse.equinox.internal.p2.discovery.compatibility.util.TransportUtil.verifyAvailability(TransportUtil.java:135)
+	at org.eclipse.equinox.internal.p2.discovery.compatibility.SiteVerifier$VerifyUpdateSiteJob.call(SiteVerifier.java:135)
+	at org.eclipse.equinox.internal.p2.discovery.compatibility.SiteVerifier$VerifyUpdateSiteJob.call(SiteVerifier.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpClient connection error response code 503.
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:249)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui 4 4 2013-01-17 14:28:05.696
+!MESSAGE Invalid preference page path: HTML Syntax
+
+!ENTRY org.eclipse.ui 4 4 2013-01-17 14:28:05.696
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-01-17 14:28:08.846 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_07
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation
+
+!ENTRY org.eclipse.ui 4 4 2013-01-17 14:28:16.499
+!MESSAGE Invalid preference page path: HTML Syntax
+
+!ENTRY org.eclipse.ui 4 4 2013-01-17 14:28:16.504
+!MESSAGE Invalid preference page path: XML Syntax
+
+!ENTRY org.eclipse.equinox.p2.discovery 4 0 2013-01-17 14:28:17.646
+!MESSAGE Unexpected error while verifying site availability: HTTP Server 'Service Unavailable': http://www.phpsrc.org/eclipse/pti/content.jar
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.core.runtime.CoreException: HTTP Server 'Service Unavailable': http://www.phpsrc.org/eclipse/pti/content.jar
+	at java.util.concurrent.FutureTask$Sync.innerGet(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at org.eclipse.equinox.internal.p2.discovery.compatibility.SiteVerifier.verifySiteAvailability(SiteVerifier.java:77)
+	at org.zend.php.common.ZendCatalogViewer$7.run(ZendCatalogViewer.java:484)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.core.runtime.CoreException: HTTP Server 'Service Unavailable': http://www.phpsrc.org/eclipse/pti/content.jar
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:216)
+	at org.eclipse.equinox.internal.p2.discovery.compatibility.util.TransportUtil.verifyAvailability(TransportUtil.java:135)
+	at org.eclipse.equinox.internal.p2.discovery.compatibility.SiteVerifier$VerifyUpdateSiteJob.call(SiteVerifier.java:135)
+	at org.eclipse.equinox.internal.p2.discovery.compatibility.SiteVerifier$VerifyUpdateSiteJob.call(SiteVerifier.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpClient connection error response code 503.
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:249)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
